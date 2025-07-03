@@ -1,16 +1,69 @@
 [versions]
-agp = "8.8.0"
-kotlin = "2.0.0"
+agp = "8.8.2"
+annotations = "23.0.0"
+appUpdateKtx = "2.1.0"
+collection = "1.5.0"
+converterGson = "2.11.0"
+eventbus = "3.3.1"
+guava = "33.2.1-jre"
+hiltAndroid = "2.51.1"
+installreferrer = "2.2"
+kotlin = "2.0.21"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
-lifecycleRuntimeKtx = "2.9.0"
+kotlinReflect = "2.0.21"
+kotlinxCoroutinesCore = "1.8.1"
+lifecycleExtensions = "2.2.0"
+lifecycleRuntimeKtx = "2.9.1"
 activityCompose = "1.10.1"
-composeBom = "2024.04.01"
+composeBom = "2025.06.01"
+material = "1.12.0"
+firebaseCommonKtx = "21.0.0"
+fragmentVersion = "1.8.8"
+appcompatVersion = "1.7.1"
+multidex = "2.0.1"
+glideVersion = "4.16.0"
+okhttpBom = "4.12.0"
+okhttpDnsoverhttps = "4.12.0"
+paletteKtx = "1.0.0"
+relinker = "1.4.5"
+retrofit = "2.11.0"
+roomVersion = "2.7.2"
+constraintlayoutVersion = "2.2.1"
+recycleVersion = "1.4.0"
+lottieVersion = "6.3.0"
+dataStoreVersion = "1.1.7"
+exoplayerVersion = "1.7.1"
+sdpAndroid = "1.1.1"
+shimmer = "0.5.0"
+sspAndroid = "1.1.1"
+startupRuntime = "1.2.0"
+timber = "5.0.1"
 
 [libraries]
+androidx-collection = { module = "androidx.collection:collection", version.ref = "collection" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-process = { module = "androidx.lifecycle:lifecycle-process", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-service = { module = "androidx.lifecycle:lifecycle-service", version.ref = "lifecycleRuntimeKtx" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+androidx-palette-ktx = { module = "androidx.palette:palette-ktx", version.ref = "paletteKtx" }
+androidx-startup-runtime = { module = "androidx.startup:startup-runtime", version.ref = "startupRuntime" }
+annotations = { module = "org.jetbrains:annotations", version.ref = "annotations" }
+app-update-ktx = { module = "com.google.android.play:app-update-ktx", version.ref = "appUpdateKtx" }
+compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glideVersion" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+eventbus = { module = "org.greenrobot:eventbus", version.ref = "eventbus" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glideVersion" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-compiler = { module = "com.google.dagger:hilt-compiler", version.ref = "hiltAndroid" }
+installreferrer = { module = "com.android.installreferrer:installreferrer", version.ref = "installreferrer" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -24,9 +77,41 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlinReflect" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesCore" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor" }
+material = { module = "com.google.android.material:material", version.ref = "material" }
+firebase-common-ktx = { group = "com.google.firebase", name = "firebase-common-ktx", version.ref = "firebaseCommonKtx" }
+activity-ktx = { group = "androidx.activity", name = "activity-ktx", version.ref = "activityCompose" }
+fragment-ktx = { group = "androidx.fragment", name = "fragment-ktx", version.ref = "fragmentVersion" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompatVersion" }
+okhttp = { module = "com.squareup.okhttp3:okhttp" }
+okhttp-bom = { module = "com.squareup.okhttp3:okhttp-bom", version.ref = "okhttpBom" }
+okhttp-dnsoverhttps = { module = "com.squareup.okhttp3:okhttp-dnsoverhttps", version.ref = "okhttpDnsoverhttps" }
+okhttp3-integration = { module = "com.github.bumptech.glide:okhttp3-integration", version.ref = "glideVersion" }
+recyclerview-integration = { module = "com.github.bumptech.glide:recyclerview-integration", version.ref = "glideVersion" }
+relinker = { module = "com.getkeepsafe.relinker:relinker", version.ref = "relinker" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "roomVersion" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomVersion" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "roomVersion" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayoutVersion" }
+recyclerView = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recycleVersion" }
+datastore = { group = "androidx.datastore", name = "datastore", version.ref = "dataStoreVersion" }
+lottie = { group = "com.airbnb.android", name = "lottie", version.ref = "lottieVersion" }
+media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "exoplayerVersion" }
+media3-ui = { group = "androidx.media3", name = "media3-ui", version.ref = "exoplayerVersion" }
+sdp-android = { module = "com.intuit.sdp:sdp-android", version.ref = "sdpAndroid" }
+shimmer = { module = "com.facebook.shimmer:shimmer", version.ref = "shimmer" }
+ssp-android = { module = "com.intuit.ssp:ssp-android", version.ref = "sspAndroid" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-ksp = { id = "com.google.devtools.ksp", version = "2.0.21-1.0.27" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-parcelize = { id = "kotlin-parcelize", version.ref = "kotlin" }
+hilt-android = { id = "com.google.dagger.hilt.android", version = "2.51.1" }
