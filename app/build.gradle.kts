@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.jetbrains.kotlin.android)
     alias(libs.plugins.compose.compiler)
     alias(libs.plugins.hilt.android)
-    id("com.google.devtools.ksp")
+    alias(libs.plugins.kotlin.ksp)
 }
 
 android {
@@ -146,7 +146,7 @@ dependencies {
 
     //Ads Mediation
 //    implementation 'com.google.android.gms:play-services-ads:24.3.0'
-//    implementation 'com.google.android.ump:user-messaging-platform:3.2.0'
+    implementation(libs.user.messaging.platform)
 //    implementation 'com.google.firebase:firebase-ads:23.6.0'
 //    implementation 'com.google.android.play:review-ktx:2.0.2'
 //    implementation 'com.google.ads.mediation:vungle:7.5.0.0'
