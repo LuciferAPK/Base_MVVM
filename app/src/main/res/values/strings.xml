@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Base MVVM</string>
+    <string name="srl_content_empty" translatable="false">The content view in SmartRefreshLayout is empty. Do you forget to add it in xml layout file?</string>
 </resources>

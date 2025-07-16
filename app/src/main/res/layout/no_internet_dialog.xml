@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:paddingHorizontal="16dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iconNoInternet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_no_internet" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="No internet connection"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:fontFamily="@font/my_font_semibold"
+        app:layout_constraintTop_toBottomOf="@id/iconNoInternet" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/buttonNetworkSetting"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/bg_button_gradient"
+        android:gravity="center"
+        android:text="View network settings"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/my_font_semibold"
+        app:layout_constraintTop_toBottomOf="@id/textTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
