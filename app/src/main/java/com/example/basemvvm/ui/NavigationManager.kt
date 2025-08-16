@@ -1,17 +1,22 @@
 package com.example.basemvvm.ui
 
+import androidx.fragment.app.FragmentManager
+import com.example.basemvvm.R
+import com.example.basemvvm.ui.main.onboard.SplashFragment
+import com.example.basemvvm.ui.main.onboard.language.LanguageFragment
+
 object NavigationManager {
-//    fun navigateToSplash(manager: FragmentManager) {
-//        try {
-//            val fragment = SplashFragment()
-//            manager.beginTransaction().apply {
-//                replace(R.id.frameMain, fragment)
-//                commitAllowingStateLoss()
-//            }
-//        } catch (e: Exception) {
-//            e.printStackTrace()
-//        }
-//    }
+    fun navigateToSplash(manager: FragmentManager) {
+        try {
+            val fragment = SplashFragment()
+            manager.beginTransaction().apply {
+                replace(R.id.frameMain, fragment)
+                commitAllowingStateLoss()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
 
 //    fun navigateToMain(manager: FragmentManager) {
 //        try {
@@ -37,23 +42,23 @@ object NavigationManager {
 //        }
 //    }
 
-//    fun navigationToLanguage(manager: FragmentManager) {
-//        try {
-//            val fragment = LanguageFragment()
-//            manager.beginTransaction().apply {
-//                setCustomAnimations(
-//                    R.anim.new_fade_in,
-//                    R.anim.new_fade_out,
-//                    R.anim.new_fade_in,
-//                    R.anim.new_fade_out
-//                )
-//                replace(R.id.frame_main, fragment)
-//                commitAllowingStateLoss()
-//            }
-//        } catch (e: Exception) {
-//            e.printStackTrace()
-//        }
-//    }
+    fun navigationToLanguage(manager: FragmentManager) {
+        try {
+            val fragment = LanguageFragment()
+            manager.beginTransaction().apply {
+                setCustomAnimations(
+                    R.anim.new_fade_in,
+                    R.anim.new_fade_out,
+                    R.anim.new_fade_in,
+                    R.anim.new_fade_out
+                )
+                replace(R.id.frameMain, fragment)
+                commitAllowingStateLoss()
+            }
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
 
 //    fun navigatePolicy(activity: Activity) {
 //        postDelayedSkipException {

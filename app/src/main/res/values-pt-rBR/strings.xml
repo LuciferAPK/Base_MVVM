@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">Idiomas</string>
+    <string name="english">Inglês</string>
+    <string name="hindi">Hindi (Índia)</string>
+    <string name="german">Alemão</string>
+    <string name="spanish">Espanhol</string>
+    <string name="french">Francês</string>
+    <string name="indonesia">Indonésio</string>
+    <string name="japanese">Japonês</string>
+    <string name="korean">Coreano</string>
+    <string name="portuguese">Português</string>
+    <string name="turkish">Turco</string>
+    <string name="vietnamese">Vietnamita</string>
+</resources>

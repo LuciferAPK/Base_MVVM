@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">언어</string>
+    <string name="english">영어</string>
+    <string name="hindi">힌디어(인도)</string>
+    <string name="german">독일 사람</string>
+    <string name="spanish">스페인의</string>
+    <string name="french">프랑스어</string>
+    <string name="indonesia">인도네시아 인</string>
+    <string name="japanese">일본어</string>
+    <string name="korean">한국인</string>
+    <string name="portuguese">포르투갈 인</string>
+    <string name="turkish">터키어</string>
+    <string name="vietnamese">베트남어</string>
+</resources>

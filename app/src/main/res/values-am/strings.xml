@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">ቋንቋዎች</string>
+    <string name="english">እንግሊዝኛ</string>
+    <string name="hindi">ሂንዲ (ሕንድ)</string>
+    <string name="german">ጀርመንኛ</string>
+    <string name="spanish">ስፓኒሽኛ</string>
+    <string name="french">ፈረንሳይኛ</string>
+    <string name="indonesia">ኢንዶኔዢያኛ</string>
+    <string name="japanese">ጃፓንኛ</string>
+    <string name="korean">ኮሪያኛ</string>
+    <string name="portuguese">ፖርቱጋልኛ</string>
+    <string name="turkish">ቱርክኛ</string>
+    <string name="vietnamese">ቪየትናምኛ</string>
+
+</resources>

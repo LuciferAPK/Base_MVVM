@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">बोली</string>
+    <string name="english">अंग्रेज़ी</string>
+    <string name="hindi">हिंदी (भारत)</string>
+    <string name="german">जर्मन</string>
+    <string name="spanish">स्पेनिश</string>
+    <string name="french">फ़्रेंच</string>
+    <string name="indonesia">इंडोनेशिया</string>
+    <string name="japanese">जापानी</string>
+    <string name="korean">कोरियाई</string>
+    <string name="portuguese">पुर्तगाली</string>
+    <string name="turkish">तुर्की</string>
+    <string name="vietnamese">वियतनामी</string>
+</resources>

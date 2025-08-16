@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">اللغات</string>
+    <string name="english">الإنجليزية</string>
+    <string name="hindi">الهندية (الهند)</string>
+    <string name="german">الألمانية</string>
+    <string name="spanish">الإسبانية</string>
+    <string name="french">الفرنسية</string>
+    <string name="indonesia">الإندونيسية</string>
+    <string name="japanese">اليابانية</string>
+    <string name="korean">الكورية</string>
+    <string name="portuguese">البرتغالية</string>
+    <string name="turkish">التركية</string>
+    <string name="vietnamese">الفيتنامية</string>
+
+</resources>

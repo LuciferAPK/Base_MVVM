@@ -29,7 +29,7 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
                 delay(1234)
                 viewModel.isNavigateToSplash = false
             }
-//            NavigationManager.navigateToSplash(supportFragmentManager)
+            NavigationManager.navigateToSplash(supportFragmentManager)
         } /*else NavigationManager.navigateToMain(supportFragmentManager)*/
     }
 

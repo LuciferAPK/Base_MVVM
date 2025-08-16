@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">Dilleri</string>
+    <string name="english">İngilizce</string>
+    <string name="hindi">Hintçe (Hindistan)</string>
+    <string name="german">Almanca</string>
+    <string name="spanish">İspanyolca</string>
+    <string name="french">Fransızca</string>
+    <string name="indonesia">Endonezce</string>
+    <string name="japanese">Japonca</string>
+    <string name="korean">Korece</string>
+    <string name="portuguese">Portekizce</string>
+    <string name="turkish">Türkçe</string>
+    <string name="vietnamese">Vietnamca</string>
+</resources>

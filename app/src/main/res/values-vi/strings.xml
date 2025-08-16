@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="language">Ngôn ngữ</string>
+    <string name="english">Tiếng Anh</string>
+    <string name="hindi">Tiếng Hindi (Ấn Độ)</string>
+    <string name="german">Tiếng Đức</string>
+    <string name="spanish">Tiếng Tây Ban Nha</string>
+    <string name="french">Tiếng Pháp</string>
+    <string name="indonesia">Tiếng Indonesia</string>
+    <string name="japanese">Tiếng Nhật</string>
+    <string name="korean">Tiếng Hàn</string>
+    <string name="portuguese">Tiếng Bồ Đào Nha</string>
+    <string name="turkish">Tiếng Thổ Nhĩ Kỳ</string>
+    <string name="vietnamese">Tiếng Việt</string>
+</resources>
